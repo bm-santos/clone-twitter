@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Clone</title>
+
+
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css'>
+  <!-- Custom css-->
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+  <!-- Fixed top navbar -->
+  <nav class="navbar navbar-toggleable-md fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse container">
+      <!-- Navbar navigation links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="octicon octicon-home" aria-hidden="true"></i> Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-zap"></i> Moments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-bell"></i> Notifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-inbox"></i> Messages</a>
+        </li>
+      </ul>
+      <!-- END: Navbar navigation links -->
+    </div>
+  </nav>
+  <!-- END: Fixed top navbar -->
+  <div class="main-container">
+    <!-- Profile background large image -->
+    <div class="row profile-background">
+      <div class="container">
+        <!-- User main avatar -->
+        <div class="avatar-container">
+          <div class="avatar">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar profile-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+          </div>
+          <div class="col-6">
+            <ul id="numeros-do-usuario"></ul> <!-- Alterado como parte do projeto ----------------------------------------------------------- -->
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main-content">
+      <div class="row">
+        <div class="col profile-col">
+          <!-- Left column -->
+          <div class="profile-header" id="div-usuario"></div></div> <!-- Alterado como parte do projeto 16/01/2020 -------------------------- -->
+        <!-- End; Left column -->
+        <!-- Center content column -->
+        <div class="col-6">
+          <ol class="tweet-list" id="lista-de-tweets"></ol> <!-- Alterado como parte do projeto 16/01/2020 ---------------------------------- -->
+          <!-- End: tweet list -->
+        </div>
+        <!-- End: Center content column -->
+        <div class="col right-col">
+          <div class="content-panel">
+            <div class="panel-header">
+              <h4>Sugestão para seguir</h4>
+            </div>
+            <!-- Who to Follow panel -->
+            <div class="panel-content">
+              <!--Follow list -->
+              <ol class="tweet-list" id="lista-para-seguir"></ol> <!-- Alterado como parte do projeto 16/01/2020 ---------------------------- -->
+              <!--END: Follow list -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="user-info.js"></script>
+    <script src="follow-list.js"></script>
+    <script src="tweet-list.js"></script>
+    <script src="app.js"></script>
+
+    <script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+
+</body>
+
+</html>

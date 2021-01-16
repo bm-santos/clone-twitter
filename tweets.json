@@ -1,0 +1,31 @@
+{
+  "tweets": [
+    {
+      "nome": "Fred Gomes",
+      "usuario": "@fred",
+      "data": "Ago 18",
+      "mensagem": "Tweet 1:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "comentarios": 20,
+      "compartilhamentos": 33,
+      "likes": 10
+    },
+    {
+      "nome": "Bianca Ribeiro",
+      "usuario": "@bi",
+      "data": "Ago 15",
+      "mensagem": "Tweet 2:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "comentarios": 10,
+      "compartilhamentos": 30,
+      "likes": 4
+    },
+    {
+      "nome": "Carlos Lima",
+      "usuario": "@carlos",
+      "data": "Ago 15",
+      "mensagem": "Tweet 3:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "comentarios": 11,
+      "compartilhamentos": 25,
+      "likes": 2
+    }
+  ]
+}
