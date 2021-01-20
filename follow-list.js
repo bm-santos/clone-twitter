@@ -1,13 +1,14 @@
 class ParaSeguir {
+    
+    constructor () {
+        this.divListaParaSeguir = document.querySelector("#lista-para-seguir")
+    }
+
     buscaParaSeguir(){
         return fetch("./follow.json")
         
     }
 
-    constructor () {
-        this.divListaParaSeguir = document.querySelector("#lista-para-seguir")
-    }
-    
     mostraListaParaSeguir(dados) {
         let listaParaSeguir = ''
 
@@ -16,14 +17,14 @@ class ParaSeguir {
             listaParaSeguir += `
                 <li class="tweet-card">
                   <div class="tweet-content">
-                    <img class="tweet-card-avatar" src="https://randomuser.me/api/portraits/men/${(elemento.nome+elemento.usuario).length}.jpg" alt="">
+                  <a href="https://twitter.com/${elemento.usuario}" target="_blank">
+                  <img class="tweet-card-avatar" src=${elemento.photo} alt="">
                     <div class="tweet-header">
                       <span class="fullname">
-                        <strong>${elemento.nome}</strong>
-                      </span>
+                        <strong>${elemento.nome}</a></strong>
+                      </span><br>
                       <span class="username">${elemento.usuario}</span>
                     </div>
-
                     <button class="btn btn-follow">Follow</button>
                   </div>
                 </li>
@@ -33,5 +34,4 @@ class ParaSeguir {
         this.divListaParaSeguir.innerHTML = listaParaSeguir
     }
     
-
 }

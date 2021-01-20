@@ -1,31 +1,34 @@
 {
   "tweets": [
     {
-      "nome": "Fred Gomes",
-      "usuario": "@fred",
+      "nome": "Rosie",
+      "usuario": "@RosieDaSerenata",
       "data": "Ago 18",
-      "mensagem": "Tweet 1:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "mensagem": "A Robô da Operação Serenata de Amor. Analisa e identifica suspeitas em gastos de deputados federais em exercício de sua função.",
       "comentarios": 20,
       "compartilhamentos": 33,
-      "likes": 10
+      "likes": 10,
+      "photo": "https://pbs.twimg.com/profile_images/927650487662505984/wITPMKqR_400x400.jpg"
     },
     {
-      "nome": "Bianca Ribeiro",
-      "usuario": "@bi",
+      "nome": "Pizza de Dados",
+      "usuario": "@pizzadedados",
       "data": "Ago 15",
-      "mensagem": "Tweet 2:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "mensagem": "O primeiro podcast Brasileiro sobre ciência de dados. Episódios novos todo dia 20.  Tweets por: @jesstemporal @leleportella.",
       "comentarios": 10,
       "compartilhamentos": 30,
-      "likes": 4
+      "likes": 4,
+      "photo": "https://pbs.twimg.com/profile_images/985842585880100865/UdQck1qP_400x400.jpg"
     },
     {
-      "nome": "Carlos Lima",
-      "usuario": "@carlos",
+      "nome": "AfroPython",
+      "usuario": "@AfroPython",
       "data": "Ago 15",
-      "mensagem": "Tweet 3:  Una breve historia sobre un error reportado por la comunidad https://www.mozilla-hispano.org/ #firefox #comunidad",
+      "mensagem": "O #AfroPython é um movimento de inclusão e empoderamento de pessoas negras na área de Tecnologia da Informação.",
       "comentarios": 11,
       "compartilhamentos": 25,
-      "likes": 2
+      "likes": 2,
+      "photo": "https://pbs.twimg.com/profile_images/992912888359784450/3Z2cTm4z_400x400.jpg"
     }
   ]
 }

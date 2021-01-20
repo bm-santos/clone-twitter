@@ -1,12 +1,12 @@
 class Tweets {
-    buscaTweets(){
-        return fetch("./tweets.json")
-    }
-
     constructor (){
         this.divTweets = document.querySelector("#lista-de-tweets")
     }
-
+    
+    buscaTweets(){
+        return fetch("./tweets.json")
+    }
+    
     mostraTweets(dados){
         let tweetsHTML = ''
 
@@ -33,13 +33,14 @@ class Tweets {
                 <div class="tweet-content">
                 <div class="tweet-header">
                     <span class="fullname">
-                    <strong>${elemento.nome}</strong>
+                    <a href="https://twitter.com/${elemento.usuario}" target="_blank">
+                    <strong>${elemento.nome}</strong></a>
                     </span>
                     <span class="username">${elemento.usuario}</span>
                     <span class="tweet-time">- ${elemento.data}</span>
                 </div>
                 <a>
-                    <img class="tweet-card-avatar" src="https://randomuser.me/api/portraits/women/${(elemento.nome+elemento.usuario).length}.jpg" alt="">
+                    <img class="tweet-card-avatar" src=${elemento.photo} alt="">
                 </a>
                 <div class="tweet-text">
                     <p class="" lang="es" data-aria-label-part="0">${elemento.mensagem}</p>

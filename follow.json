@@ -1,16 +1,19 @@
 {
   "followers": [
     {
-      "nome": "Bruno Silva",
-      "usuario": "@bsilva"
+      "nome": "MASP",
+      "usuario": "@maspmuseu",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D0BAQHtEIpOfS8ZtA/company-logo_200_200/0/1568740894778?e=1619049600&v=beta&t=KNCmKGOMcfAIdteyoAoKQANe0ysXksgkd3OH08-1njs"
     },
     {
-      "nome": "Cristiano Lopes",
-      "usuario": "@lopes"
+      "nome": "Michaela Coel",
+      "usuario": "@MichaelaCoel",
+      "photo": "https://pbs.twimg.com/profile_images/1302894917660876801/-iPbKe7C_400x400.jpg"
     },
     {
-      "nome": "Maria Gomes",
-      "usuario": "@gomes"
+      "nome": "scikit-learn",
+      "usuario": "@scikit_learn",
+      "photo":"https://pbs.twimg.com/profile_images/1105548722/scikit-learn-logo_400x400.png"
     }
   ]
 }

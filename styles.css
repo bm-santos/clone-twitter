@@ -74,7 +74,7 @@ a {
 
 .profile-background {
   height: 320px;
-  background-image: url('https://picsum.photos/1500/500');
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/53/9556248b4747950.png');
 }
 
 /* Main avatar */
@@ -88,7 +88,7 @@ a {
 
 .avatar {
   background: #fff;
-  background-image: url(https://randomuser.me/api/portraits/men/22.jpg);
+  background-image: url('https://avatars1.githubusercontent.com/u/59630247?s=460&u=0068d61e316816c40e3a8cccc788a1a7ac835b50&v=4');
   background-size: cover;
   border: 5px solid #fff;
   border-radius: 50%;
