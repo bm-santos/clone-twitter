@@ -1,36 +1,31 @@
-// cria classe usuário
 class Usuario {
-    // cria método para buscar as informações do usuário no json
     constructor() {
         this.divUsuario = document.querySelector("#div-usuario")
         this.divNumeros = document.querySelector("#numeros-do-usuario")
-    }
-    
-    buscaUsuario() {
-      // retorna o fetch com a promise, e sem tratamento dos resultados
-      return fetch("./usuario.json")
-      
+        this.headTitle = document.querySelector("#head-title")
     }
 
-    // monta o HTML com os dados do JSON
+    buscaUsuario() {
+        return fetch("./usuario.json")
+    }
+
     mostraUsuario(dados) {
-        // cria uma variavel que ira armazenar as duas divs de HTML
         let infoUsuario = ''
         let infoNumeros = ''
+        let nomeDoUsusario = ''
 
-        //Não é do Json. Variável criada apenas para usar o localStorage no exercício
-        let nomeDoUsusario = '' 
-        
-        // Salva o nome do usuário do JSON para o locaStorage com a chave dados-usuario
-        localStorage.setItem("dados-usuario",dados[0].nome)
 
-        nomeDoUsusario = localStorage.getItem("dados-usuario",dados[0].nome)
+        localStorage.setItem("dados-usuario", dados[0].nome)
+
+        nomeDoUsusario = localStorage.getItem("dados-usuario", dados[0].nome)
+
+        document.title = `Twitter - ${nomeDoUsusario} (@${dados[0].usuario})`
 
         infoUsuario += `
             <h3 class="profile-fullname" id="profile-name"><a>${nomeDoUsusario}<a></h3>
             <h2 class="profile-element" id="username"><a>@${dados[0].usuario}</a></h2>
             <a class="profile-element profile-website" href="https://${dados[0].website}" target="_blank"><i class="octicon octicon-link"></i>&nbsp;${dados[0].website}</a>
-            <a class="profile-element profile-website" hrerf=""><i class="octicon octicon-location"></i>&nbsp;${dados[0].local}</a>
+            <a class="profile-element profile-website" href="https://www.google.com/maps/search/${dados[0].local}" target="_blank"><i class="octicon octicon-location"></i>&nbsp;${dados[0].local}</a>
             <h2 class="profile-element"><i class="octicon octicon-calendar"></i> Joined in ${dados[0].cadastro}</h2>
             <button class="btn btn-search-bar tweet-to-btn">Tweet to ${dados[0].nome}</button>
         `
@@ -61,7 +56,6 @@ class Usuario {
                 <span class="profile-stats-item profile-stats-item-number">${dados[0].likes}</span>
                 </a>
             </li>
-        
         `
         this.divNumeros.innerHTML = infoNumeros
     }
