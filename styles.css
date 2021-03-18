@@ -223,6 +223,18 @@ a {
 .tweet-footer-btn span {
   margin-left: 8px;
 }
+.octicon-heart:hover {
+  color: red;
+  cursor: pointer;
+}
+.octicon-sync:hover {
+  color: green;
+  cursor: pointer;
+}
+.octicon-comment:hover {
+  color: blue;
+  cursor: pointer;
+}
 /* END Main column*/
 
 /* Right column*/

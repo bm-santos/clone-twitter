@@ -38,7 +38,7 @@ class Tweets {
                     <i class="octicon octicon-sync" aria-hidden="true"></i><span>${elemento.compartilhamentos}</span>
                     </a>
                     <a class="tweet-footer-btn">
-                    <i class="octicon octicon-heart" onClick={somalike()} aria-hidden="true"></i><span>${elemento.likes}</span>
+                    <i class="octicon octicon-heart" aria-hidden="true"></i><span>${elemento.likes}</span>
                     </a>
                 </div>
                 </div>
