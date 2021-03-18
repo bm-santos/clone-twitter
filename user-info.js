@@ -2,7 +2,6 @@ class Usuario {
     constructor() {
         this.divUsuario = document.querySelector("#div-usuario")
         this.divNumeros = document.querySelector("#numeros-do-usuario")
-        this.headTitle = document.querySelector("#head-title")
     }
 
     buscaUsuario() {
