@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 @media screen and (min-width: 1236px) {
@@ -27,7 +27,8 @@ a {
   font-size: 13px;
 }
 
-.input-search, .btn-search {
+.input-search,
+.btn-search {
   background-color: #f5f8fa;
   border-radius: 21px;
   border: 1px solid #e6ecf0;
@@ -44,23 +45,24 @@ a {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-image: url('https://pbs.twimg.com/profile_images/679974972278849537/bzzb-6H4_normal.jpg');
+  overflow: hidden;
+  background-image: url("https://pbs.twimg.com/profile_images/679974972278849537/bzzb-6H4_normal.jpg");
 }
 
 .btn-search-bar {
   border-radius: 100px;
   border: 1px solid #1da1f2;
   color: #fff;
-  background-color: #4AB3F4;
+  background-color: #4ab3f4;
   border-color: transparent;
   font-weight: bold;
   font-size: 14px;
 }
 
-.btn-search-bar:hover{
-      background-color: #1DA1F2;
-    border-color: #1DA1F2;
-  cursor:pointer;
+.btn-search-bar:hover {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  cursor: pointer;
 }
 
 .navbar-form {
@@ -73,8 +75,8 @@ a {
 /* END: Top Navbar elements' styles */
 
 .profile-background {
-  height: 320px;
-  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/53/9556248b4747950.png');
+  height: 150px;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/53/9556248b4747950.png");
 }
 
 /* Main avatar */
@@ -82,13 +84,13 @@ a {
   bottom: -87px;
   left: 10px;
   position: absolute;
-  transition: bottom .3s;
+  transition: bottom 0.3s;
   z-index: 3;
 }
 
 .avatar {
   background: #fff;
-  background-image: url('https://avatars1.githubusercontent.com/u/59630247?s=460&u=0068d61e316816c40e3a8cccc788a1a7ac835b50&v=4');
+  background-image: url("https://avatars1.githubusercontent.com/u/59630247?s=460&u=0068d61e316816c40e3a8cccc788a1a7ac835b50&v=4");
   background-size: cover;
   border: 5px solid #fff;
   border-radius: 50%;
@@ -129,7 +131,7 @@ a {
 .profile-stats-item-active {
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-color: #1DA1F2 !important;
+  border-color: #1da1f2 !important;
 }
 
 .profile-stats-item-label {
@@ -164,7 +166,7 @@ a {
 }
 
 .profile-website {
-  color: #1DA1F2 !important;
+  color: #1da1f2 !important;
   cursor: pointer;
 }
 
@@ -175,7 +177,7 @@ a {
 .tweet-to-btn {
   margin-top: 16px;
   margin-bottom: 16px;
-  width:100%;
+  width: 100%;
 }
 /* END: Left column*/
 
@@ -195,7 +197,6 @@ a {
   padding: 9px 12px;
 }
 
-
 .tweet-content {
   margin-left: 58px;
   font-size: 14px;
@@ -214,7 +215,8 @@ a {
 .tweet-footer-btn {
   margin-right: 30px;
 }
-.tweet-footer-btn i, .tweet-footer-btn span {
+.tweet-footer-btn i,
+.tweet-footer-btn span {
   color: #657786;
   font-size: 16px;
 }
@@ -253,8 +255,8 @@ a {
 }
 
 .btn-follow {
-  border-color: #1DA1F2;
-  color: #1DA1F2;
+  border-color: #1da1f2;
+  color: #1da1f2;
   background-color: #fff;
   border: 1px solid #1da1f2;
   display: block;
@@ -270,7 +272,7 @@ a {
 }
 
 .btn-follow:hover {
-  background-color: #E8F5FD;
+  background-color: #e8f5fd;
 }
 /* END: Right column*/
 

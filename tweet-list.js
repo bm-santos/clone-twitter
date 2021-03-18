@@ -1,32 +1,17 @@
 class Tweets {
-    constructor (){
+    constructor() {
         this.divTweets = document.querySelector("#lista-de-tweets")
     }
-    
-    buscaTweets(){
+
+    buscaTweets() {
         return fetch("./tweets.json")
     }
-    
-    mostraTweets(dados){
+
+    mostraTweets(dados) {
         let tweetsHTML = ''
 
-        dados.map(function(elemento){
-           
-            
-            /* Fetch para exibir fotos aleatórias nos avares de usuario
-            let foto = ''
+        dados.map(function (elemento) {
 
-            fetch("https://dog.ceo/api/breeds/image/random")
-                .then(function (resposta){
-                    resposta.json()
-                    .then(function(dados){
-                        //console.log(dados.message)
-                        foto = dados.message
-                    })
-                })
-            
-            console.log(foto)*/
-            
             tweetsHTML += `
             
             <li class="tweet-card">
@@ -53,27 +38,14 @@ class Tweets {
                     <i class="octicon octicon-sync" aria-hidden="true"></i><span>${elemento.compartilhamentos}</span>
                     </a>
                     <a class="tweet-footer-btn">
-                    <i class="octicon octicon-heart" aria-hidden="true"></i><span>${elemento.likes}</span>
+                    <i class="octicon octicon-heart" onClick={somalike()} aria-hidden="true"></i><span>${elemento.likes}</span>
                     </a>
                 </div>
                 </div>
                 </li>
-            
             `
-            }
+        }
         )
         this.divTweets.innerHTML = tweetsHTML
-
-
-        
     }
 }
-
-
-
-/*
-
-
-
-
-*/
