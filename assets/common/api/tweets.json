@@ -1,0 +1,34 @@
+{
+  "tweets": [
+    {
+      "nome": "Rosie",
+      "usuario": "@RosieDaSerenata",
+      "data": "Aug 18",
+      "mensagem": "The Robot of Operation Serenade of Love. Analyzes and identifies suspicions in expenses of federal deputies in the exercise of their function.",
+      "comentarios": 20,
+      "compartilhamentos": 33,
+      "likes": 10,
+      "photo": "https://pbs.twimg.com/profile_images/927650487662505984/wITPMKqR_400x400.jpg"
+    },
+    {
+      "nome": "Pizza de Dados",
+      "usuario": "@pizzadedados",
+      "data": "Aug 15",
+      "mensagem": "The first Brazilian podcast about data science. New episodes on the 20th of every month.  Tweets by: @jesstemporal @leleportella.",
+      "comentarios": 10,
+      "compartilhamentos": 30,
+      "likes": 4,
+      "photo": "https://pbs.twimg.com/profile_images/985842585880100865/UdQck1qP_400x400.jpg"
+    },
+    {
+      "nome": "AfroPython",
+      "usuario": "@AfroPython",
+      "data": "Aug 15",
+      "mensagem": "#AfroPython is an inclusion and empowerment movement for black people in technology.",
+      "comentarios": 11,
+      "compartilhamentos": 25,
+      "likes": 2,
+      "photo": "https://pbs.twimg.com/profile_images/992912888359784450/3Z2cTm4z_400x400.jpg"
+    }
+  ]
+}
